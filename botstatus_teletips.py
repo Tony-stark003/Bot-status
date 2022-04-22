@@ -39,7 +39,7 @@ async def main_teletips():
                         for ccc in zzz_teletips:
                             bbb = ccc.message_id
                         if aaa == bbb:
-                            xxx_teletips += f"\n\n╭⎋ ʙᴏᴛ ᴜsᴇʀɴᴀᴍᴇ: @{bot}\n╰⊚ sᴛᴀᴛᴜs: ᴜᴘ ⚡️"
+                            xxx_teletips += f"\n\n╭⎋ ʙᴏᴛ ᴜsᴇʀɴᴀᴍᴇ: @[{botname}]({botlink})\n╰⊚ sᴛᴀᴛᴜs: ᴜᴘ ⚡️"
                             for bot_admin_id in BOT_ADMIN_IDS:
                                 try:
                                     await app.send_message(int(bot_admin_id), f"🚨 **Beep! Beep!! @{bot} is down** ❌")
