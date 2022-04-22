@@ -47,7 +47,7 @@ async def main_teletips():
                                     pass
                             await app.read_history(bot)
                         else:
-                            xxx_teletips += f"\n\n╭⎋ ʙᴏᴛ ᴜsᴇʀɴᴀᴍᴇ: @{bot}\n╰⊚ sᴛᴀᴛᴜs: ᴅᴏᴡɴ 💔 "
+                            xxx_teletips += f"\n\n╭⎋ ʙᴏᴛ ᴜsᴇʀɴᴀᴍᴇ: {bot}\n╰⊚ sᴛᴀᴛᴜs: ᴅᴏᴡɴ 💔 "
                             await app.read_history(bot)
                     except FloodWait as e:
                         await asyncio.sleep(e.x)            
