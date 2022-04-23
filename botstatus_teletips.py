@@ -29,7 +29,7 @@ async def main_teletips():
                 GET_CHANNEL_OR_GROUP = await app.get_chat(int(CHANNEL_OR_GROUP_ID))
                 CHANNEL_OR_GROUP_NAME = GET_CHANNEL_OR_GROUP.title
                 CHANNEL_OR_GROUP_TYPE = GET_CHANNEL_OR_GROUP.type
-                xxx_teletips = f"<u>About</u>:\n- Name: ```Vysakh```\n- Age: ```16```\n- Place: ```India/kerala```\n- Hobby: ```Listening music```\n- Language: ```Malayalam```\n\n```<u>Accounts</u>:```\n- Telegram: @VysakhTG\n\n<u>Bots</u>:"
+                xxx_teletips = f"**<u>About</u>:**\n- **Name:** ```Vysakh```\n- **Age:** ```16```\n- **Place:** ```India/kerala```\n- **Hobby:** ```Listening music```\n- **Language:** ```Malayalam```\n\n**<u>Accounts</u>:**\n- Telegram: @VysakhTG\n\n<u>Bots</u>:"
                 for bot in BOT_LIST:
                     try:
                         yyy_teletips = await app.send_message(bot, "/start")
