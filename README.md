@@ -24,7 +24,7 @@
 8. `TIME_ZONE`: Your time zone (Example: Asia/Kolkata)
 
 <p align="center">
-<img src="https://telegra.ph/file/cda5f4fdb78bbc5f58e48.jpg">
+<img src="https://graph.org/file/3b6bb3e997ec379559fdb.jpg">
 <p>
  
 ## Deployment Methods
